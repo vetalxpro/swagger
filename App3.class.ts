@@ -3,7 +3,7 @@ import * as express from 'express';
 import * as bodyParser from 'body-parser';
 
 
-import { TestDataRouter }  from './routes/index';
+import { TestDataRouter, UsersRouter }  from './routes/index';
 
 class App {
     // ref to Express instance
@@ -34,6 +34,7 @@ class App {
         });
         this.express.use('/', router);
         this.express.use('/api/v1/test-data', TestDataRouter );
+        this.express.use('/api/v1/users', UsersRouter );
     }
 }
 

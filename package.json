@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run serve",
     "serve": "nodemon --watch *.ts --exec ts-node ./index.ts",
     "test": "mocha --compilers ts:ts-node/register,tsx:ts-node/register --recursive"
   },

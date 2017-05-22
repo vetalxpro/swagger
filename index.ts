@@ -1,7 +1,8 @@
 import * as http from 'http';
 
-// import App from './App.class';
-import App from './App2.class';
+import App from './App.class';
+// import App from './App2.class';
+// import App from './App3.class';
 
 const port = 3000;
 App.set('port', port);
