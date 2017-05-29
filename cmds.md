@@ -1,7 +1,7 @@
 
 
 
-
+http://mherman.org/blog/2016/05/26/swagger-and-nodejs/#.WSwt3evyjRZ
 
 
 /////////////////////////////// L1
